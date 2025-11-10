@@ -1,3 +1,17 @@
+/* main1.c
+ * Project 3: Virtual Memory Simulator – No Page Replacement
+ * Numa Wani & Khusi Patel
+ * CSC 354-02
+ *
+ * Reads logical addresses from addresses.txt and prints:
+ * 1. Logical address (out1.txt)
+ * 2. Corresponding physical address (out2.txt)
+ * 3. Signed byte value at that physical address (out3.txt)
+ *
+ * Reports statistics:
+ * Page-fault rate and TLB hit rate
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
